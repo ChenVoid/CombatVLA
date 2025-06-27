@@ -24,10 +24,10 @@ Recent advances in Vision-Language-Action models (VLAs) have expanded the capabi
 
 If you find this project helpful, please consider citing the our paper:
 ```
-@article{chen2025combatvla,
-  title={CombatVLA: An Efficient Vision-Language-Action Model for Combat Tasks in 3D Action Role-Playing Games
-  author={Chen, Peng and Bu, Pi and Wang, Yingyao and Wang, Xinyi and Wang, Ziming and Guo, Jie and Zhao, Yingxiu and Zhu, Qi and Song, Jun and Yang, Siran and Wang, Jiaming and Zheng, Bo},
-  booktitle={Proceedings of the International Conference on Computer Vision, ICCV 2025},
+@inproceedings{chen2025combatvla,
+  title={CombatVLA: An Efficient Vision-Language-Action Model for Combat Tasks in 3D Action Role-Playing Games},
+  author={Chen, Peng and Bu, Pi and Wang, Yingyao and Wang, Xinyi and Wang, Ziming and Guo, Jie and Zhao, Yingxiu and Zhu, Qi and Song, Jun and Yang, Siran and Wang, Jiamang and Zheng, Bo},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
   year={2025}
 }
 ```
