@@ -1,6 +1,8 @@
 # CombatVLA: An Efficient Vision-Language-Action Model for Combat Tasks in 3D Action Role-Playing Games
 > [CombatVLA: An Efficient Vision-Language-Action Model for Combat Tasks in 3D Action Role-Playing Games](https://arxiv.org/abs/2503.09527)
+> 
 > Peng Chen*, Pi Bu*, Yingyao Wang, Xinyi Wang, Ziming Wang, Jie Guo, Yingxiu Zhao, Qi Zhu, Jun Song $^\dagger$, Siran Yang, Jiamang Wang, Bo Zheng
+> 
 > ICCV 2025 Main Conference Paper  
 > [[Project](https://combatvla.github.io/)] / [[Paper](https://arxiv.org/abs/2503.09527)]  
 > $\dagger$ Corresponding author
