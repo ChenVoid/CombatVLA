@@ -5,9 +5,9 @@
 > ICCV 2025 Main Conference Paper  
 > [[Project](https://combatvla.github.io/)] / [[Paper](https://arxiv.org/abs/2503.09527)]  
 
-<div style="text-align: center;">
+<p align="center">
   <img src="./static/images/teaser.png" width="500" alt="vis">
-</div>
+</p>
 CombatVLA surpasses GPT-4o and Qwen2.5-VL in combat understanding, is 50 times faster than Cradle and VARP framework, and has a higher success rate than humans.
 
 ## News
