@@ -85,7 +85,7 @@ The file structure should be like this:
       ├── ...
 ```
 
-Then use res/tool/general.clg to overwrite res/tool/subfinder/settings/general.cfg file.
+Then please use res/tool/general.clg to overwrite res/tool/subfinder/settings/general.cfg file.
 
 ---
 
