@@ -1,13 +1,40 @@
 # CombatVLA: An Efficient Vision-Language-Action Model for Combat Tasks in 3D Action Role-Playing Games
 
-![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-green)
-[![Paper](https://img.shields.io/badge/arXiv-2503.09527-b31b1b.svg)](https://arxiv.org/abs/2503.09527)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg)
-![GitHub stars](https://img.shields.io/github/stars/ChenVoid/CombatVLA?style=social)
-![GitHub forks](https://img.shields.io/github/forks/ChenVoid/CombatVLA?style=social)
+<!-- <p align="center">
+  <img src="https://img.shields.io/badge/PRs-Welcome-green" alt="PRs Welcome">
+  <a href="https://arxiv.org/abs/2503.09527">
+    <img src="https://img.shields.io/badge/arXiv-2503.09527-b31b1b.svg" alt="Paper">
+  </a>
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License">
+  <img src="https://img.shields.io/github/stars/ChenVoid/CombatVLA?style=social" alt="GitHub stars">
+  <img src="https://img.shields.io/github/forks/ChenVoid/CombatVLA?style=social" alt="GitHub forks">
+</p>
 
-📄 ICCV Paper: https://openaccess.thecvf.com/content/ICCV2025/papers/Chen_CombatVLA_An_Efficient_Vision-Language-Action_Model_for_Combat_Tasks_in_3D_ICCV_2025_paper.pdf  
-🌐 Project Page: https://combatvla.github.io/
+
+<p align="center">
+  <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Chen_CombatVLA_An_Efficient_Vision-Language-Action_Model_for_Combat_Tasks_in_3D_ICCV_2025_paper.pdf">
+    📄 <b>Paper</b>
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://combatvla.github.io">
+    🌐 <b>Project</b>
+  </a>
+</p> -->
+<p align="center">
+  <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Chen_CombatVLA_An_Efficient_Vision-Language-Action_Model_for_Combat_Tasks_in_3D_ICCV_2025_paper.pdf">
+    <img src="https://img.shields.io/badge/Paper-ICCV%202025-4b7bec?style=for-the-badge&logo=readthedocs&logoColor=white" height="32">
+  </a>
+  <a href="https://combatvla.github.io">
+    <img src="https://img.shields.io/badge/Project-Website-20bf6b?style=for-the-badge&logo=googlechrome&logoColor=white" height="32">
+  </a>
+  <a href="https://arxiv.org/abs/2503.09527">
+    <img src="https://img.shields.io/badge/arXiv-2503.09527-b31b1b?style=for-the-badge&logo=arxiv&logoColor=white" height="32">
+  </a>
+  <img src="https://img.shields.io/badge/License-MIT-f7b731?style=for-the-badge" height="32">
+  <img src="https://img.shields.io/github/stars/ChenVoid/CombatVLA?style=for-the-badge&logo=github" height="32">
+  <img src="https://img.shields.io/github/forks/ChenVoid/CombatVLA?style=for-the-badge&logo=github" height="32">
+</p>
+
 
 <p align="center">
   <img src="./static/images/teaser.png" width="500" alt="CombatVLA Teaser">
@@ -37,7 +64,7 @@ To address these challenges, we introduce **CombatVLA**, an efficient **3B Visio
 CombatVLA integrates seamlessly into an optimized action execution framework and supports efficient inference through our **truncated AoT strategy**. Experiments show that CombatVLA:
 
 - Outperforms all existing models in combat understanding  
-- Achieves **50× acceleration** in real-time combat  
+- Achieves **50× acceleration** in efficient combat  
 - Surpasses **human players** in task success rate
 
 ---
@@ -102,11 +129,16 @@ This launches the efficient game control framework powered by CombatVLA.
 ---
 
 ## 🙏 Acknowledgements
+We would like to thank the contributors to [Cradle](https://github.com/BAAI-Agents/Cradle) for their valuable open research contributions.
 
-- [Cradle](https://github.com/BAAI-Agents/Cradle)
 
 ---
 
-## 📬 Contact
 
-Open an issue or PR if you have suggestions or questions.
+## 📈 GitHub Star History
+
+<p align="center">
+  <a href="https://star-history.com/#ChenVoid/CombatVLA&Date">
+    <img src="https://api.star-history.com/svg?repos=ChenVoid/CombatVLA&type=Date" width="90%">
+  </a>
+</p>
