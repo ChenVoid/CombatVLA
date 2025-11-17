@@ -1,34 +1,11 @@
 # CombatVLA: An Efficient Vision-Language-Action Model for Combat Tasks in 3D Action Role-Playing Games
 
-<!-- <p align="center">
-  <img src="https://img.shields.io/badge/PRs-Welcome-green" alt="PRs Welcome">
-  <a href="https://arxiv.org/abs/2503.09527">
-    <img src="https://img.shields.io/badge/arXiv-2503.09527-b31b1b.svg" alt="Paper">
-  </a>
-  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License">
-  <img src="https://img.shields.io/github/stars/ChenVoid/CombatVLA?style=social" alt="GitHub stars">
-  <img src="https://img.shields.io/github/forks/ChenVoid/CombatVLA?style=social" alt="GitHub forks">
-</p>
-
-
-<p align="center">
-  <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Chen_CombatVLA_An_Efficient_Vision-Language-Action_Model_for_Combat_Tasks_in_3D_ICCV_2025_paper.pdf">
-    📄 <b>Paper</b>
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://combatvla.github.io">
-    🌐 <b>Project</b>
-  </a>
-</p> -->
 <p align="center">
   <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Chen_CombatVLA_An_Efficient_Vision-Language-Action_Model_for_Combat_Tasks_in_3D_ICCV_2025_paper.pdf">
     <img src="https://img.shields.io/badge/Paper-ICCV%202025-4b7bec?style=for-the-badge&logo=readthedocs&logoColor=white" height="32">
   </a>
   <a href="https://combatvla.github.io">
     <img src="https://img.shields.io/badge/Project-Website-20bf6b?style=for-the-badge&logo=googlechrome&logoColor=white" height="32">
-  </a>
-  <a href="https://arxiv.org/abs/2503.09527">
-    <img src="https://img.shields.io/badge/arXiv-2503.09527-b31b1b?style=for-the-badge&logo=arxiv&logoColor=white" height="32">
   </a>
   <img src="https://img.shields.io/badge/License-MIT-f7b731?style=for-the-badge" height="32">
   <img src="https://img.shields.io/github/stars/ChenVoid/CombatVLA?style=for-the-badge&logo=github" height="32">
