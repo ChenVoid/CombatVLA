@@ -59,19 +59,40 @@ cd CombatVLA
 
 ### 2. Environment Setup
 
-OS: Windows (capable of running *Black Myth: Wukong*)
+OS: Windows 10/11 (capable of running *Black Myth: Wukong*)
 ```bash
 conda create -n framework python=3.9
 conda activate framework
 pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu126
 pip install -r requirements.txt
+# Download best-matching version of specific model for your spaCy installation
+python -m spacy download en_core_web_lg
 ```
 
 ---
 
-### 3. Configure API Endpoint
+### 3. Download videosubfinder
+Download the videosubfinder from https://sourceforge.net/projects/videosubfinder/ and extract the files into the res/tool/subfinder folder. We have already created the folder for you and included a test.srt, which is a required dummy file that will not affect results.
 
-Edit `call_api.py` to connect CombatVLA with your deployed model (e.g., vLLM):
+The file structure should be like this:
+
+```
+├── res
+  ├── tool
+    ├── subfinder
+      ├── VideoSubFinderWXW.exe
+      ├── test.srt
+      ├── ...
+```
+
+Then use res/tool/general.clg to overwrite res/tool/subfinder/settings/general.cfg file.
+
+---
+
+### 4. Configure API Endpoint
+
+Deploy CombatVLA or your fine-tuned VLM on a cloud server (e.g., with vLLM) and expose an OpenAI-compatible API.
+Edit `call_api.py` to drive CombatVLA or your fine-tuned VLM:
 
 ```
 API_URL="https://<your-server-ip>:8000/v1"
