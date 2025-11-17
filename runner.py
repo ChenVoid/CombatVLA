@@ -26,7 +26,6 @@ def main(args):
 
 def get_args_parser():
     parser = argparse.ArgumentParser("Action Execution Framework")
-    parser.add_argument("--embedProviderConfig", type=str, default="./config/openai_config.json", help="The path to the provider config file")
     parser.add_argument("--envConfig", type=str, default="./config/env_config_bmwk.json", help="The path to the environment config file")
     return parser
 
