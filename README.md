@@ -71,7 +71,7 @@ python -m spacy download en_core_web_lg
 
 ---
 
-### 3. Download videosubfinder
+### 3. Download Videosubfinder
 Download the videosubfinder from https://sourceforge.net/projects/videosubfinder/ and extract the files into the res/tool/subfinder folder. We have already created the folder for you and included a test.srt, which is a required dummy file that will not affect results.
 
 The file structure should be like this:
@@ -92,9 +92,10 @@ Then use res/tool/general.clg to overwrite res/tool/subfinder/settings/general.c
 ### 4. Configure API Endpoint
 
 Deploy CombatVLA or your fine-tuned VLM on a cloud server (e.g., with vLLM) and expose an OpenAI-compatible API.
+
 Edit `call_api.py` to drive CombatVLA or your fine-tuned VLM:
 
-```
+```env
 API_URL="https://<your-server-ip>:8000/v1"
 API_KEY="your_api_key"
 ```
@@ -103,7 +104,7 @@ API_KEY="your_api_key"
 
 ## ▶️ Running the Framework
 
-```bash
+```
 python runner.py
 ```
 
