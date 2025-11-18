@@ -136,8 +136,10 @@ We would like to thank the contributors to [Cradle](https://github.com/BAAI-Agen
 
 ## 📈 GitHub Star History
 
-<p align="center">
+<!-- <p align="center">
   <a href="https://star-history.com/#ChenVoid/CombatVLA&Date">
     <img src="https://api.star-history.com/svg?repos=ChenVoid/CombatVLA&type=Date" width="90%">
   </a>
-</p>
+</p> -->
+
+[![Star History Chart](https://api.star-history.com/svg?repos=ChenVoid/CombatVLA&type=date&legend=top-left)](https://www.star-history.com/#ChenVoid/CombatVLA&type=date&legend=top-left)
