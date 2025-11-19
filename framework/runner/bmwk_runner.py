@@ -184,24 +184,6 @@ class PipelineRunner():
         self.pipeline_shutdown()
 
 
-    def run_information_gathering(self):
-        self.information_gathering()
-
-
-    def run_self_reflection(self):
-        self.self_reflection()
-
-    def run_task_inference(self):
-        self.task_inference()
-
-
-    def run_action_planning(self):
-        self.action_planning()
-
-    def run_skill_curation(self):
-        self.skill_curation()
-
-
 def exit_cleanup(runner):
     logger.write("Exiting pipeline.")
     runner.pipeline_shutdown()
