@@ -1,3 +1,5 @@
+
+
 # CombatVLA: An Efficient Vision-Language-Action Model for Combat Tasks in 3D Action Role-Playing Games
 
 <p align="center">
@@ -99,6 +101,8 @@ Edit `call_api.py` to drive CombatVLA or your fine-tuned VLM:
 API_URL="https://<your-server-ip>:8000/v1"
 API_KEY="your_api_key"
 ```
+
+If the served model name is not `CombatVLA`, update the `model` field in `call_api.py` as well.
 
 ---
 
